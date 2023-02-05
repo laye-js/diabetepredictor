@@ -2,10 +2,7 @@
 from sklearn.tree import DecisionTreeClassifier
 from fastapi import FastAPI
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, accuracy_score
 import pandas as pd
-from sklearn.tree import export_graphviz
-import graphviz
 
 
 app = FastAPI()
